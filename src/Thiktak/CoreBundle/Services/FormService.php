@@ -32,7 +32,7 @@ Class FormService
 
   public function bind($entity, array $values = null)
   {
-    $values = array_merge((array) $values, $this->request->query->all());
+    $values = array_merge((array) $values, $this->request->request->all(), $this->request->query->all());
 
     $o = new \ReflectionClass($entity);
     foreach( $values as $key => $value )
