@@ -1,0 +1,27 @@
+{
+    "name": "thiktak/core-bundle",
+    "type": "symfony-bundle",
+    "description": "Symfony ThiktakCoreBundle",
+    "keywords": ["bundle", "Symfony2", "Core"],
+    "homepage": "https://github.com/Thiktak/CoreBundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Olivarès Georges",
+            "email": "dev@olivares-georges.fr"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.3.2"
+    },
+    "require-dev": {
+        "symfony/framework-bundle": ">=2.1,<2.3-dev"
+    },
+    "autoload": {
+        "psr-0": {
+            "Thiktak\\CoreBundle": "/"
+        }
+    },
+    "target-dir": "Thiktak/CoreBundle"
+}
